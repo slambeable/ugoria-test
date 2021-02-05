@@ -1,4 +1,10 @@
-# ugoria-test
+# readsoft-test
+
+## Description
+
+Online store page.
+
+[Git Pages](https://slambeable.github.io/ugoria-test/)
 
 ## Project setup
 ```

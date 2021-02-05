@@ -1,17 +1,19 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <custom-xlsx-table :tableData="tableData"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import tableData from './assets/xls/data.xls';
+import CustomXlsxTable from './components/CustomXlsxTable.vue';
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld,
+    CustomXlsxTable,
+  },
+  data() {
+    return {
+      tableData,
+    };
   },
 };
 </script>
