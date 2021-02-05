@@ -1,8 +1,8 @@
-# readsoft-test
+# ugoria-test
 
 ## Description
 
-Online store page.
+Online xls file reader.
 
 [Git Pages](https://slambeable.github.io/ugoria-test/)
 
